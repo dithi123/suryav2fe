@@ -4,13 +4,15 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hey {} How are you!!</b>
+<i>I am a simple and unique auto filter bot....😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+This bot only works under my team MC Group. you cant join me into you group. 🔥🔥😝
+
+Created and Devleoped by @Dj_Botz
 
 For More Details Click Help Button Below..
-@CrazyBotsz
+@MOVIEZ_CORNER_GROUP_BY_MC_TEAM 
 </i>"""    
     
     HELP_TEXT = """
@@ -43,12 +45,11 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/AlbertEinstein_TG">AlbertEinstein_TG</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Dj_Botz">𝑷𝒓𝒐𝒇𝒆𝒔𝒔𝒐𝒓 𝒐𝒇 𝑴𝑪 𝑻𝒆𝒂𝒎</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
