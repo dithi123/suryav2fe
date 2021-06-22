@@ -30,7 +30,8 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 🅹🅾️🅸🅽 🅵🅾️🆁 🅼🅾️🆁🅴Group@MOVIEZ_CORNER_GROUP_BY_MC_TEAM
+Channels 👉@moviez_CorneR_updates_channel👉@All_in_1_by_moviez_corner👉@updates_channel_by_mc👉@Main_channel_by_MC👉@MC_ARCHIVE_1👉Instagram linkhttps://www.instagram.com/moviez_corner_insta_1/,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'SHARE GROUP', url="https://t.me/share/url?url=https://t.me/MOVIEZ_CORNER_GROUP_BY_MC_TEAM"
                                 )
                         ]
                     ]
@@ -50,14 +51,15 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 🅹🅾️🅸🅽 🅵🅾️🆁 🅼🅾️🆁🅴Group@MOVIEZ_CORNER_GROUP_BY_MC_TEAM
+Channels 👉@moviez_CorneR_updates_channel👉@All_in_1_by_moviez_corner👉@updates_channel_by_mc👉@Main_channel_by_MC👉@MC_ARCHIVE_1👉Instagram linkhttps://www.instagram.com/moviez_corner_insta_1/,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'SHARE GROUP', url="https://t.me/share/url?url=https://t.me/MOVIEZ_CORNER_GROUP_BY_MC_TEAM"
                                 )
                         ]
                     ]
@@ -76,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'SHARE GROUP', url="https://t.me/share/url?url=https://t.me/MOVIEZ_CORNER_GROUP_BY_MC_TEAM"
                                 )
                         ]
                     ]
@@ -89,7 +91,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('SHARE GROUP', url='https://t.me/share/url?url=https://t.me/MOVIEZ_CORNER_GROUP_BY_MC_TEAM'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
